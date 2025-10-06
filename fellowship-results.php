@@ -20,12 +20,11 @@
                                                 aria-controls="accordion-item-content-<?php echo $item['contentID']; ?>" 
                                                 aria-expanded="true"
                                                 data-toggle-type="menu" 
-                                                aria-label="<?php echo $item['fellowshipName']; ?>"
+                                                aria-label="View details for <?php echo htmlspecialchars($item['fellowshipName']); ?>"
                                                 class="accordion__button btn btn--small"
                                             >
                                                 <span class="accordion__button-text">
-                                                    View details
-                                                    <span class="sr-only"> for <?php echo $item['fellowshipName']; ?></span>
+                                                    View details for <?php echo htmlspecialchars($item['fellowshipName']); ?>
                                                 </span>
                                             </button>
                                             <div id="accordion-item-content-<?php echo $item['contentID'] ?>"
