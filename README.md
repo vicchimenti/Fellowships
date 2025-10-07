@@ -1,3 +1,3 @@
 # Fellowships App
 
-a filter module
+a filter module for Fellowship information
